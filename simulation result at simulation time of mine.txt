@@ -1,0 +1,1129 @@
+Simulation setting file, output folder and iteration number are not provided! Using default ones...
+Simulation started at 09/05/2021 22:41:38
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:41:38
+Scenario: TWO_TIER_WITH_EO - Policy: NETWORK_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 2848(28/2820)
+# of failed tasks (Edge/Cloud): 20(0/20)
+# of completed tasks (Edge/Cloud): 2828(28/2800)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 1575(12/1563)
+# of failed tasks (Edge/Cloud): 11(0/11)
+# of completed tasks (Edge/Cloud): 1564(12/1552)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 155(0/155)
+# of failed tasks (Edge/Cloud): 1(0/1)
+# of completed tasks (Edge/Cloud): 154(0/154)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 630(0/630)
+# of failed tasks (Edge/Cloud): 1(0/1)
+# of completed tasks (Edge/Cloud): 629(0/629)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 5208(40/5168/0)
+# of failed tasks (Edge/Cloud/Mobile): 33(0/33/0)
+# of completed tasks (Edge/Cloud/Mobile): 5175(40/5135/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 28(2/10/16)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 33/0/0(0/0/0/0)
+percentage of failed tasks: 0.633641%
+average service time: 1.073126 seconds. (on Edge: 0.730243, on Cloud: 1.075797, on Mobile: NaN)
+average processing time: 0.103485 seconds. (on Edge: 0.669227, on Cloud: 0.099078, on Mobile: NaN)
+average network delay: 0.969641 seconds. (LAN delay: 0.048632, MAN delay: 0.012384, WAN delay: 0.976719, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 0.002165/0.382828/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:41:39. It took 1 Second
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:41:39
+Scenario: TWO_TIER_WITH_EO - Policy: UTILIZATION_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 3641(3641/0)
+# of failed tasks (Edge/Cloud): 18(18/0)
+# of completed tasks (Edge/Cloud): 3623(3623/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 734(734/0)
+# of failed tasks (Edge/Cloud): 2(2/0)
+# of completed tasks (Edge/Cloud): 732(732/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 150(150/0)
+# of failed tasks (Edge/Cloud): 3(3/0)
+# of completed tasks (Edge/Cloud): 147(147/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 936(936/0)
+# of failed tasks (Edge/Cloud): 5(5/0)
+# of completed tasks (Edge/Cloud): 931(931/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 5461(5461/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 28(28/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 5433(5433/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 5(5/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 28/0/0(0/0/0/0)
+percentage of failed tasks: 0.512727%
+average service time: 1.093729 seconds. (on Edge: 1.093729, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.037962 seconds. (on Edge: 1.037962, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.055767 seconds. (LAN delay: 0.045205, MAN delay: 0.012408, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 1.186147/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:41:40. It took 980 Milli Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:41:40
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 4116(4116/0)
+# of failed tasks (Edge/Cloud): 18(18/0)
+# of completed tasks (Edge/Cloud): 4098(4098/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 1343(1343/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1343(1343/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 136(9/127)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 136(9/127)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 568(52/516)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 568(52/516)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 6163(5520/643/0)
+# of failed tasks (Edge/Cloud/Mobile): 18(18/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 6145(5502/643/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 8(6/0/2)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 18/0/0(0/0/0/0)
+percentage of failed tasks: 0.292066%
+average service time: 0.812334 seconds. (on Edge: 0.806871, on Cloud: 0.859077, on Mobile: NaN)
+average processing time: 0.706827 seconds. (on Edge: 0.760548, on Cloud: 0.247146, on Mobile: NaN)
+average network delay: 0.105508 seconds. (LAN delay: 0.046324, MAN delay: NaN, WAN delay: 0.611931, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 0.509019/0.161616/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:42:10. It took 30 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:42:10
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_COMPETITOR - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 3762(3762/0)
+# of failed tasks (Edge/Cloud): 14(14/0)
+# of completed tasks (Edge/Cloud): 3748(3748/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 963(963/0)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 962(962/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 156(156/0)
+# of failed tasks (Edge/Cloud): 2(2/0)
+# of completed tasks (Edge/Cloud): 154(154/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 736(736/0)
+# of failed tasks (Edge/Cloud): 3(3/0)
+# of completed tasks (Edge/Cloud): 733(733/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 5617(5617/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 20(20/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 5597(5597/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 22(21/0/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 20/0/0(0/0/0/0)
+percentage of failed tasks: 0.356062%
+average service time: 1.038681 seconds. (on Edge: 1.038681, on Cloud: NaN, on Mobile: NaN)
+average processing time: 0.980392 seconds. (on Edge: 0.980392, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.058289 seconds. (LAN delay: 0.047497, MAN delay: 0.012411, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 1.074675/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:42:17. It took 6 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:42:17
+Scenario: TWO_TIER_WITH_EO - Policy: HYBRID - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 3909(3909/0)
+# of failed tasks (Edge/Cloud): 16(16/0)
+# of completed tasks (Edge/Cloud): 3893(3893/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 728(728/0)
+# of failed tasks (Edge/Cloud): 3(3/0)
+# of completed tasks (Edge/Cloud): 725(725/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 155(155/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 155(155/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 887(887/0)
+# of failed tasks (Edge/Cloud): 10(10/0)
+# of completed tasks (Edge/Cloud): 877(877/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 5679(5679/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 29(29/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 5650(5650/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 21(19/0/2)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 29/0/0(0/0/0/0)
+percentage of failed tasks: 0.510653%
+average service time: 1.123833 seconds. (on Edge: 1.123833, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.066916 seconds. (on Edge: 1.066916, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.056917 seconds. (LAN delay: 0.046041, MAN delay: 0.012411, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 1.212302/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:42:18. It took 765 Milli Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:42:18
+Scenario: TWO_TIER_WITH_EO - Policy: NETWORK_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 13320(945/12375)
+# of failed tasks (Edge/Cloud): 90(7/83)
+# of completed tasks (Edge/Cloud): 13230(938/12292)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 2574(187/2387)
+# of failed tasks (Edge/Cloud): 15(0/15)
+# of completed tasks (Edge/Cloud): 2559(187/2372)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 368(24/344)
+# of failed tasks (Edge/Cloud): 2(0/2)
+# of completed tasks (Edge/Cloud): 366(24/342)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 2375(129/2246)
+# of failed tasks (Edge/Cloud): 13(2/11)
+# of completed tasks (Edge/Cloud): 2362(127/2235)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 18637(1285/17352/0)
+# of failed tasks (Edge/Cloud/Mobile): 120(9/111/0)
+# of completed tasks (Edge/Cloud/Mobile): 18517(1276/17241/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 76(4/27/45)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 120/0/0(0/0/0/0)
+percentage of failed tasks: 0.643880%
+average service time: 1.468671 seconds. (on Edge: 1.038966, on Cloud: 1.500473, on Mobile: NaN)
+average processing time: 0.160353 seconds. (on Edge: 0.980841, on Cloud: 0.099629, on Mobile: NaN)
+average network delay: 1.308317 seconds. (LAN delay: 0.049183, MAN delay: 0.012469, WAN delay: 1.400844, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 0.194805/0.897475/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:42:21. It took 3 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:42:21
+Scenario: TWO_TIER_WITH_EO - Policy: UTILIZATION_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 13905(13905/0)
+# of failed tasks (Edge/Cloud): 56(56/0)
+# of completed tasks (Edge/Cloud): 13849(13849/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 2798(2798/0)
+# of failed tasks (Edge/Cloud): 9(9/0)
+# of completed tasks (Edge/Cloud): 2789(2789/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 458(458/0)
+# of failed tasks (Edge/Cloud): 5(5/0)
+# of completed tasks (Edge/Cloud): 453(453/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 2038(2038/0)
+# of failed tasks (Edge/Cloud): 21(21/0)
+# of completed tasks (Edge/Cloud): 2017(2017/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 19199(19199/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 91(91/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 19108(19108/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 42(35/0/7)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 91/0/0(0/0/0/0)
+percentage of failed tasks: 0.473983%
+average service time: 1.144051 seconds. (on Edge: 1.144051, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.076692 seconds. (on Edge: 1.076692, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.067358 seconds. (LAN delay: 0.056273, MAN delay: 0.012597, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 3.908550/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:42:26. It took 4 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:42:26
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 10608(10608/0)
+# of failed tasks (Edge/Cloud): 47(47/0)
+# of completed tasks (Edge/Cloud): 10561(10561/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 3414(3414/0)
+# of failed tasks (Edge/Cloud): 7(7/0)
+# of completed tasks (Edge/Cloud): 3407(3407/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 449(21/428)
+# of failed tasks (Edge/Cloud): 1(0/1)
+# of completed tasks (Edge/Cloud): 448(21/427)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 2167(173/1994)
+# of failed tasks (Edge/Cloud): 11(3/8)
+# of completed tasks (Edge/Cloud): 2156(170/1986)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 16638(14216/2422/0)
+# of failed tasks (Edge/Cloud/Mobile): 66(57/9/0)
+# of completed tasks (Edge/Cloud/Mobile): 16572(14159/2413/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 37(29/4/4)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 66/0/0(0/0/0/0)
+percentage of failed tasks: 0.396682%
+average service time: 0.834181 seconds. (on Edge: 0.825333, on Cloud: 0.886101, on Mobile: NaN)
+average processing time: 0.691477 seconds. (on Edge: 0.773385, on Cloud: 0.210862, on Mobile: NaN)
+average network delay: 0.142704 seconds. (LAN delay: 0.051948, MAN delay: NaN, WAN delay: 0.675240, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 1.298701/0.618687/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:43:47. It took 1 Minute 20 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:43:47
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_COMPETITOR - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 12340(12340/0)
+# of failed tasks (Edge/Cloud): 65(65/0)
+# of completed tasks (Edge/Cloud): 12275(12275/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 3108(3108/0)
+# of failed tasks (Edge/Cloud): 4(4/0)
+# of completed tasks (Edge/Cloud): 3104(3104/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 406(406/0)
+# of failed tasks (Edge/Cloud): 8(8/0)
+# of completed tasks (Edge/Cloud): 398(398/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 2179(2179/0)
+# of failed tasks (Edge/Cloud): 21(21/0)
+# of completed tasks (Edge/Cloud): 2158(2158/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 18033(18033/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 98(98/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 17935(17935/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 43(41/0/2)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 98/0/0(0/0/0/0)
+percentage of failed tasks: 0.543448%
+average service time: 1.116041 seconds. (on Edge: 1.116041, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.051544 seconds. (on Edge: 1.051544, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.064497 seconds. (LAN delay: 0.053296, MAN delay: 0.012580, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 3.621032/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:44:07. It took 20 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:44:07
+Scenario: TWO_TIER_WITH_EO - Policy: HYBRID - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 11084(11084/0)
+# of failed tasks (Edge/Cloud): 56(56/0)
+# of completed tasks (Edge/Cloud): 11028(11028/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 3189(3189/0)
+# of failed tasks (Edge/Cloud): 9(9/0)
+# of completed tasks (Edge/Cloud): 3180(3180/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 453(453/0)
+# of failed tasks (Edge/Cloud): 4(4/0)
+# of completed tasks (Edge/Cloud): 449(449/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 2365(2365/0)
+# of failed tasks (Edge/Cloud): 14(14/0)
+# of completed tasks (Edge/Cloud): 2351(2351/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 17091(17091/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 83(83/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 17008(17008/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 46(45/0/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 83/0/0(0/0/0/0)
+percentage of failed tasks: 0.485636%
+average service time: 1.110762 seconds. (on Edge: 1.110762, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.046283 seconds. (on Edge: 1.046283, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.064479 seconds. (LAN delay: 0.053396, MAN delay: 0.012568, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 3.634740/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:44:10. It took 2 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:44:10
+Scenario: TWO_TIER_WITH_EO - Policy: NETWORK_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 19486(4372/15114)
+# of failed tasks (Edge/Cloud): 143(8/135)
+# of completed tasks (Edge/Cloud): 19343(4364/14979)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 4952(1111/3841)
+# of failed tasks (Edge/Cloud): 21(1/20)
+# of completed tasks (Edge/Cloud): 4931(1110/3821)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 702(117/585)
+# of failed tasks (Edge/Cloud): 11(2/9)
+# of completed tasks (Edge/Cloud): 691(115/576)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 3901(662/3239)
+# of failed tasks (Edge/Cloud): 20(1/19)
+# of completed tasks (Edge/Cloud): 3881(661/3220)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 29041(6262/22779/0)
+# of failed tasks (Edge/Cloud/Mobile): 195(12/183/0)
+# of completed tasks (Edge/Cloud/Mobile): 28846(6250/22596/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 138(38/36/64)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 195/0/0(0/0/0/0)
+percentage of failed tasks: 0.671464%
+average service time: 1.486879 seconds. (on Edge: 1.055282, on Cloud: 1.606257, on Mobile: NaN)
+average processing time: 0.294678 seconds. (on Edge: 0.986946, on Cloud: 0.103198, on Mobile: NaN)
+average network delay: 1.192201 seconds. (LAN delay: 0.058724, MAN delay: 0.012589, WAN delay: 1.503059, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 1.018398/1.404545/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:44:17. It took 7 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:44:17
+Scenario: TWO_TIER_WITH_EO - Policy: UTILIZATION_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 23297(23297/0)
+# of failed tasks (Edge/Cloud): 137(137/0)
+# of completed tasks (Edge/Cloud): 23160(23160/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 4244(4244/0)
+# of failed tasks (Edge/Cloud): 10(10/0)
+# of completed tasks (Edge/Cloud): 4234(4234/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 725(725/0)
+# of failed tasks (Edge/Cloud): 18(18/0)
+# of completed tasks (Edge/Cloud): 707(707/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 3619(3619/0)
+# of failed tasks (Edge/Cloud): 29(29/0)
+# of completed tasks (Edge/Cloud): 3590(3590/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 31885(31885/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 194(194/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 31691(31691/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 133(125/0/8)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 194/0/0(0/0/0/0)
+percentage of failed tasks: 0.608437%
+average service time: 1.245662 seconds. (on Edge: 1.245662, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.168780 seconds. (on Edge: 1.168780, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.076882 seconds. (LAN delay: 0.065324, MAN delay: 0.012819, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 6.701118/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:44:27. It took 9 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:44:27
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 20495(20495/0)
+# of failed tasks (Edge/Cloud): 87(87/0)
+# of completed tasks (Edge/Cloud): 20408(20408/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 4771(4771/0)
+# of failed tasks (Edge/Cloud): 4(4/0)
+# of completed tasks (Edge/Cloud): 4767(4767/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 669(26/643)
+# of failed tasks (Edge/Cloud): 2(0/2)
+# of completed tasks (Edge/Cloud): 667(26/641)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 4083(337/3746)
+# of failed tasks (Edge/Cloud): 19(1/18)
+# of completed tasks (Edge/Cloud): 4064(336/3728)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 30018(25629/4389/0)
+# of failed tasks (Edge/Cloud/Mobile): 112(92/20/0)
+# of completed tasks (Edge/Cloud/Mobile): 29906(25537/4369/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 65(58/3/4)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 112/0/0(0/0/0/0)
+percentage of failed tasks: 0.373109%
+average service time: 0.871765 seconds. (on Edge: 0.856266, on Cloud: 0.962355, on Mobile: NaN)
+average processing time: 0.709527 seconds. (on Edge: 0.794973, on Cloud: 0.210091, on Mobile: NaN)
+average network delay: 0.162238 seconds. (LAN delay: 0.061293, MAN delay: NaN, WAN delay: 0.752264, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 2.484307/0.992424/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:46:58. It took 2 Minutes 30 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:46:58
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_COMPETITOR - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 21719(21719/0)
+# of failed tasks (Edge/Cloud): 111(111/0)
+# of completed tasks (Edge/Cloud): 21608(21608/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 4975(4975/0)
+# of failed tasks (Edge/Cloud): 10(10/0)
+# of completed tasks (Edge/Cloud): 4965(4965/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 702(702/0)
+# of failed tasks (Edge/Cloud): 13(13/0)
+# of completed tasks (Edge/Cloud): 689(689/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 3501(3501/0)
+# of failed tasks (Edge/Cloud): 27(27/0)
+# of completed tasks (Edge/Cloud): 3474(3474/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 30897(30897/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 161(161/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 30736(30736/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 114(110/0/4)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 161/0/0(0/0/0/0)
+percentage of failed tasks: 0.521086%
+average service time: 1.219658 seconds. (on Edge: 1.219658, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.142981 seconds. (on Edge: 1.142981, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.076677 seconds. (LAN delay: 0.065197, MAN delay: 0.012802, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 6.441017/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:47:37. It took 39 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:47:37
+Scenario: TWO_TIER_WITH_EO - Policy: HYBRID - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 21945(21945/0)
+# of failed tasks (Edge/Cloud): 116(116/0)
+# of completed tasks (Edge/Cloud): 21829(21829/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 4882(4882/0)
+# of failed tasks (Edge/Cloud): 6(6/0)
+# of completed tasks (Edge/Cloud): 4876(4876/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 733(733/0)
+# of failed tasks (Edge/Cloud): 11(11/0)
+# of completed tasks (Edge/Cloud): 722(722/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 3558(3558/0)
+# of failed tasks (Edge/Cloud): 24(24/0)
+# of completed tasks (Edge/Cloud): 3534(3534/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 31118(31118/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 157(157/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 30961(30961/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 106(104/0/2)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 157/0/0(0/0/0/0)
+percentage of failed tasks: 0.504531%
+average service time: 1.223510 seconds. (on Edge: 1.223510, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.147844 seconds. (on Edge: 1.147844, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.075666 seconds. (LAN delay: 0.064139, MAN delay: 0.012803, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 6.624278/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:47:46. It took 9 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:47:46
+Scenario: TWO_TIER_WITH_EO - Policy: NETWORK_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 25255(7736/17519)
+# of failed tasks (Edge/Cloud): 160(20/140)
+# of completed tasks (Edge/Cloud): 25095(7716/17379)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 7012(2400/4612)
+# of failed tasks (Edge/Cloud): 33(2/31)
+# of completed tasks (Edge/Cloud): 6979(2398/4581)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 1019(272/747)
+# of failed tasks (Edge/Cloud): 19(4/15)
+# of completed tasks (Edge/Cloud): 1000(268/732)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 5585(1494/4091)
+# of failed tasks (Edge/Cloud): 39(9/30)
+# of completed tasks (Edge/Cloud): 5546(1485/4061)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 38871(11902/26969/0)
+# of failed tasks (Edge/Cloud/Mobile): 251(35/216/0)
+# of completed tasks (Edge/Cloud/Mobile): 38620(11867/26753/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 190(65/44/81)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 251/0/0(0/0/0/0)
+percentage of failed tasks: 0.645726%
+average service time: 1.493007 seconds. (on Edge: 1.085350, on Cloud: 1.673835, on Mobile: NaN)
+average processing time: 0.383859 seconds. (on Edge: 1.009537, on Cloud: 0.106323, on Mobile: NaN)
+average network delay: 1.109148 seconds. (LAN delay: 0.065206, MAN delay: 0.012733, WAN delay: 1.567512, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 2.305375/1.637879/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:48:00. It took 13 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:48:00
+Scenario: TWO_TIER_WITH_EO - Policy: UTILIZATION_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 29701(29701/0)
+# of failed tasks (Edge/Cloud): 188(188/0)
+# of completed tasks (Edge/Cloud): 29513(29513/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 6773(6773/0)
+# of failed tasks (Edge/Cloud): 26(26/0)
+# of completed tasks (Edge/Cloud): 6747(6747/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 994(994/0)
+# of failed tasks (Edge/Cloud): 27(27/0)
+# of completed tasks (Edge/Cloud): 967(967/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 5185(5185/0)
+# of failed tasks (Edge/Cloud): 33(33/0)
+# of completed tasks (Edge/Cloud): 5152(5152/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 42653(42653/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 274(274/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 42379(42379/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 163(150/0/13)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 274/0/0(0/0/0/0)
+percentage of failed tasks: 0.642393%
+average service time: 1.304612 seconds. (on Edge: 1.304612, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.221241 seconds. (on Edge: 1.221241, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.083371 seconds. (LAN delay: 0.071397, MAN delay: 0.013053, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 9.655123/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:48:18. It took 18 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:48:18
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 30127(30127/0)
+# of failed tasks (Edge/Cloud): 136(136/0)
+# of completed tasks (Edge/Cloud): 29991(29991/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 7534(7534/0)
+# of failed tasks (Edge/Cloud): 9(9/0)
+# of completed tasks (Edge/Cloud): 7525(7525/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 926(42/884)
+# of failed tasks (Edge/Cloud): 11(1/10)
+# of completed tasks (Edge/Cloud): 915(41/874)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 4858(395/4463)
+# of failed tasks (Edge/Cloud): 18(2/16)
+# of completed tasks (Edge/Cloud): 4840(393/4447)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 43445(38098/5347/0)
+# of failed tasks (Edge/Cloud/Mobile): 174(148/26/0)
+# of completed tasks (Edge/Cloud/Mobile): 43271(37950/5321/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 126(111/4/11)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 174/0/0(0/0/0/0)
+percentage of failed tasks: 0.400506%
+average service time: 0.940839 seconds. (on Edge: 0.920669, on Cloud: 1.084697, on Mobile: NaN)
+average processing time: 0.770283 seconds. (on Edge: 0.848431, on Cloud: 0.212921, on Mobile: NaN)
+average network delay: 0.170556 seconds. (LAN delay: 0.072238, MAN delay: NaN, WAN delay: 0.871776, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 3.927128/1.207071/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:52:02. It took 3 Minutes 43 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:52:02
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_COMPETITOR - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 32825(32825/0)
+# of failed tasks (Edge/Cloud): 219(219/0)
+# of completed tasks (Edge/Cloud): 32606(32606/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 6082(6082/0)
+# of failed tasks (Edge/Cloud): 9(9/0)
+# of completed tasks (Edge/Cloud): 6073(6073/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 840(840/0)
+# of failed tasks (Edge/Cloud): 24(24/0)
+# of completed tasks (Edge/Cloud): 816(816/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 5179(5179/0)
+# of failed tasks (Edge/Cloud): 47(47/0)
+# of completed tasks (Edge/Cloud): 5132(5132/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 44926(44926/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 299(299/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 44627(44627/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 209(197/0/12)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 299/0/0(0/0/0/0)
+percentage of failed tasks: 0.665539%
+average service time: 1.336902 seconds. (on Edge: 1.336902, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.249553 seconds. (on Edge: 1.249553, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.087348 seconds. (LAN delay: 0.075380, MAN delay: 0.013106, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 9.818903/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:53:06. It took 1 Minute 4 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:53:06
+Scenario: TWO_TIER_WITH_EO - Policy: HYBRID - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 29558(29558/0)
+# of failed tasks (Edge/Cloud): 195(195/0)
+# of completed tasks (Edge/Cloud): 29363(29363/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 7782(7782/0)
+# of failed tasks (Edge/Cloud): 17(17/0)
+# of completed tasks (Edge/Cloud): 7765(7765/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 840(840/0)
+# of failed tasks (Edge/Cloud): 17(17/0)
+# of completed tasks (Edge/Cloud): 823(823/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 5271(5271/0)
+# of failed tasks (Edge/Cloud): 44(44/0)
+# of completed tasks (Edge/Cloud): 5227(5227/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 43451(43451/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 273(273/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 43178(43178/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 158(149/0/9)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 273/0/0(0/0/0/0)
+percentage of failed tasks: 0.628294%
+average service time: 1.252705 seconds. (on Edge: 1.252705, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.169269 seconds. (on Edge: 1.169269, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.083436 seconds. (LAN delay: 0.071496, MAN delay: 0.013080, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 8.953824/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:53:24. It took 18 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:53:24
+Scenario: TWO_TIER_WITH_EO - Policy: NETWORK_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 38450(17401/21049)
+# of failed tasks (Edge/Cloud): 254(71/183)
+# of completed tasks (Edge/Cloud): 38196(17330/20866)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 9831(4877/4954)
+# of failed tasks (Edge/Cloud): 37(8/29)
+# of completed tasks (Edge/Cloud): 9794(4869/4925)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 1059(468/591)
+# of failed tasks (Edge/Cloud): 18(5/13)
+# of completed tasks (Edge/Cloud): 1041(463/578)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 6515(2859/3656)
+# of failed tasks (Edge/Cloud): 36(9/27)
+# of completed tasks (Edge/Cloud): 6479(2850/3629)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 55855(25605/30250/0)
+# of failed tasks (Edge/Cloud/Mobile): 345(93/252/0)
+# of completed tasks (Edge/Cloud/Mobile): 55510(25512/29998/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 242(92/47/103)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 345/0/0(0/0/0/0)
+percentage of failed tasks: 0.617671%
+average service time: 1.481875 seconds. (on Edge: 1.181973, on Cloud: 1.736928, on Mobile: NaN)
+average processing time: 0.558171 seconds. (on Edge: 1.094639, on Cloud: 0.101929, on Mobile: NaN)
+average network delay: 0.923703 seconds. (LAN delay: 0.075893, MAN delay: 0.013053, WAN delay: 1.634999, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 4.788781/1.504545/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:53:54. It took 30 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:53:54
+Scenario: TWO_TIER_WITH_EO - Policy: UTILIZATION_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 38734(38734/0)
+# of failed tasks (Edge/Cloud): 275(275/0)
+# of completed tasks (Edge/Cloud): 38459(38459/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 8883(8883/0)
+# of failed tasks (Edge/Cloud): 26(26/0)
+# of completed tasks (Edge/Cloud): 8857(8857/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 1122(1122/0)
+# of failed tasks (Edge/Cloud): 32(32/0)
+# of completed tasks (Edge/Cloud): 1090(1090/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 6948(6948/0)
+# of failed tasks (Edge/Cloud): 44(44/0)
+# of completed tasks (Edge/Cloud): 6904(6904/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 55687(55687/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 377(377/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 55310(55310/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 194(177/0/17)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 377/0/0(0/0/0/0)
+percentage of failed tasks: 0.676998%
+average service time: 1.416057 seconds. (on Edge: 1.416057, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.317371 seconds. (on Edge: 1.317371, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.098686 seconds. (LAN delay: 0.086328, MAN delay: 0.013416, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 13.243326/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:54:26. It took 31 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:54:26
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_BASED - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 35592(35525/67)
+# of failed tasks (Edge/Cloud): 145(144/1)
+# of completed tasks (Edge/Cloud): 35447(35381/66)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 8249(8229/20)
+# of failed tasks (Edge/Cloud): 6(6/0)
+# of completed tasks (Edge/Cloud): 8243(8223/20)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 1283(70/1213)
+# of failed tasks (Edge/Cloud): 12(0/12)
+# of completed tasks (Edge/Cloud): 1271(70/1201)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 7378(707/6671)
+# of failed tasks (Edge/Cloud): 24(6/18)
+# of completed tasks (Edge/Cloud): 7354(701/6653)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 52502(44531/7971/0)
+# of failed tasks (Edge/Cloud/Mobile): 187(156/31/0)
+# of completed tasks (Edge/Cloud/Mobile): 52315(44375/7940/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 271(233/9/29)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 187/0/0(0/0/0/0)
+percentage of failed tasks: 0.356177%
+average service time: 1.037100 seconds. (on Edge: 1.020451, on Cloud: 1.130145, on Mobile: NaN)
+average processing time: 0.831761 seconds. (on Edge: 0.944077, on Cloud: 0.204047, on Mobile: NaN)
+average network delay: 0.205339 seconds. (LAN delay: 0.076374, MAN delay: NaN, WAN delay: 0.926098, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 4.969517/1.746465/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 22:59:05. It took 4 Minutes 38 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 22:59:05
+Scenario: TWO_TIER_WITH_EO - Policy: FUZZY_COMPETITOR - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 33832(33832/0)
+# of failed tasks (Edge/Cloud): 225(225/0)
+# of completed tasks (Edge/Cloud): 33607(33607/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 9314(9314/0)
+# of failed tasks (Edge/Cloud): 26(26/0)
+# of completed tasks (Edge/Cloud): 9288(9288/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 1250(1250/0)
+# of failed tasks (Edge/Cloud): 35(35/0)
+# of completed tasks (Edge/Cloud): 1215(1215/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 6949(6949/0)
+# of failed tasks (Edge/Cloud): 61(61/0)
+# of completed tasks (Edge/Cloud): 6888(6888/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 51345(51345/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 347(347/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 50998(50998/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 205(193/0/12)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 347/0/0(0/0/0/0)
+percentage of failed tasks: 0.675820%
+average service time: 1.377982 seconds. (on Edge: 1.377982, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.286155 seconds. (on Edge: 1.286155, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.091827 seconds. (LAN delay: 0.079635, MAN delay: 0.013298, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 12.480159/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 23:00:23. It took 1 Minute 17 Seconds
+----------------------------------------------------------------------
+Scenario started at 09/05/2021 23:00:23
+Scenario: TWO_TIER_WITH_EO - Policy: HYBRID - #iteration: 1
+Duration: 10.0 min (warm up period: 3.0 min) - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+FunctionBlock.fclTreeFuzzify(237): Variable 'delaysensitivity' does not exist => Creating it
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+AUGMENTED_REALITY
+# of tasks (Edge/Cloud): 39812(39812/0)
+# of failed tasks (Edge/Cloud): 269(269/0)
+# of completed tasks (Edge/Cloud): 39543(39543/0)
+---------------------------------------
+HEALTH_APP
+# of tasks (Edge/Cloud): 8504(8504/0)
+# of failed tasks (Edge/Cloud): 15(15/0)
+# of completed tasks (Edge/Cloud): 8489(8489/0)
+---------------------------------------
+HEAVY_COMP_APP
+# of tasks (Edge/Cloud): 1150(1150/0)
+# of failed tasks (Edge/Cloud): 24(24/0)
+# of completed tasks (Edge/Cloud): 1126(1126/0)
+---------------------------------------
+INFOTAINMENT_APP
+# of tasks (Edge/Cloud): 6607(6607/0)
+# of failed tasks (Edge/Cloud): 58(58/0)
+# of completed tasks (Edge/Cloud): 6549(6549/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 56073(56073/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 366(366/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 55707(55707/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 240(223/0/17)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 366/0/0(0/0/0/0)
+percentage of failed tasks: 0.652721%
+average service time: 1.441393 seconds. (on Edge: 1.441393, on Cloud: NaN, on Mobile: NaN)
+average processing time: 1.344106 seconds. (on Edge: 1.344106, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.097287 seconds. (LAN delay: 0.084921, MAN delay: 0.013442, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 13.450938/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 09/05/2021 23:00:56. It took 33 Seconds
+----------------------------------------------------------------------
+Simulation finished at 09/05/2021 23:00:56. It took 19 Minutes 17 Seconds
