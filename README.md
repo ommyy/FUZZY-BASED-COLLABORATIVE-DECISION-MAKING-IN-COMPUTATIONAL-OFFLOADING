@@ -9,6 +9,8 @@ These systems also have pros and cons while dealing with these type of situation
 In this fuzzy logic is used. , fuzzy logic is the most employed method because its computation complexity is lower with respect to different decision-making algorithms.it is to deal with the collaborative task offloading problem in MEC-enabled scenario.
 
 An simulator is also  used to simulate results and it is compared with other policies also.
+
+
 sim referrence--Sonmez, C.; Ozgovde, A.; Ersoy, C. EdgeCloudSim: An environment for performance evaluation of Edge Computing systems. Trans. Emerg. Telecommun. Technol. 2018, 29, 1–17. [CrossRef] 
 
 
