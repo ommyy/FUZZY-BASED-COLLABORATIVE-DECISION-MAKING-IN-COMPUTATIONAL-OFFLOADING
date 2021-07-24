@@ -1,4 +1,4 @@
-i have done simulation in application 4
+  simulation is in application 4
 and in my simulation is in fuzzy based policy
 while running result it was compared with other policies as well like with fuzzy orchestror, network based model,utilization model and hybrid model.
 At my simulation time i have attatched the output of simulation and compared it with other polocies with increasing order of no. of mobile devices. 
